@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_margin="25dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/dialog_background"
+        android:orientation="vertical"
+        android:transitionName="@string/transition_dialog">
+
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="25dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="29dp"
+            android:layout_marginTop="23dp"
+            android:src="@drawable/close_icon_white"
+            tools:ignore="RtlHardcoded" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".AddCourses">
+
+            <ImageView
+                android:id="@+id/courseicon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/gallery_white" />
+
+            <EditText
+                android:id="@+id/courseName"
+                style="@style/edittext_add_course"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/edit_text_white_frame"
+                android:ems="15"
+                android:hint="@string/course_name"
+                android:inputType="textPersonName"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+            <EditText
+                android:id="@+id/courseAbout"
+                style="@style/edittext_add_course"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/edit_text_white_frame"
+                android:ems="15"
+                android:hint="@string/description"
+                android:inputType="textPersonName"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+            <EditText
+                android:id="@+id/playlist"
+                style="@style/edittext_add_course"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/edit_text_white_frame"
+                android:ems="15"
+                android:hint="@string/playlist_url"
+                android:inputType="textPersonName"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="19dp"
+            android:background="@null"
+            android:text="Update the Course"
+            android:textAllCaps="false"
+            android:textColor="@color/textw"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</FrameLayout>
+
+
+
+
+

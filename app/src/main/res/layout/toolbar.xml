@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="15dp"
+    android:background="#2397f3"
+    android:gravity="center"
+    android:elevation="3dp">
+
+    <ImageView
+        android:id="@+id/nav_drawer"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:src="@drawable/menu_bar_icon" />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/etMobile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:textColorHint="#ffffff"
+        android:hint="Type Course Name ..."
+        android:inputType="text"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:src="@drawable/search_icon" />
+
+
+
+
+</LinearLayout>

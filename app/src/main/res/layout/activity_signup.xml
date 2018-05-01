@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/signupback"
+    android:orientation="vertical"
+    tools:context=".SignUp_Activity">
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@color/textw"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Create an Account"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/fullname"
+            style="@style/edittextup"
+            android:layout_marginTop="10dp"
+            android:hint="@string/full_name"
+            android:inputType="text"
+            android:textColorHint="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/emailup"
+            style="@style/edittextup"
+            android:layout_marginTop="10dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/passwordup"
+            style="@style/edittextup"
+            android:layout_marginTop="10dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/cpasswordup"
+            style="@style/edittextup"
+            android:layout_marginTop="10dp"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="@string/terms"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rec_gradient"
+        android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+        android:text="@string/con"
+        android:textAllCaps="false"
+        android:textColor="@color/textw"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
+</ScrollView>

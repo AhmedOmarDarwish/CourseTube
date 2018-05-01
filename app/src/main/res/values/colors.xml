@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1e88e5</color>
+    <color name="colorAccent">#1565C0</color>
+    <color name="textw">#FFFF</color>
+    <color name="service">#0D47A1</color>
+    <color name="signupback">#ebf4fa</color>
+    <color name="selected_tab_color">#0096ff</color>
+    <color name="unselected_tab">#acacac</color>
+
+    <color name="myPrimaryDarkColor">#366AD3</color>
+    <color name="text_dark">#9FA0A0</color>
+    <color name="black">#000000</color>
+    <color name="common_black_50">#80000000</color>
+    <color name="common_gray_txt">#514e4e</color>
+    <color name="common_blue_bg">#0055bd</color>
+
+    <color name="com_facebook_blue">#3B5998</color>
+
+
+    <color name="fab_background_color">#0096ff</color>
+    <color name="dialog_background_color">#0096ff</color>
+    <color name="dialog_background_scrim">#99323232</color>
+
+    <color name="toolbar_title">#ffffff</color>
+    <color name="primary">#37474f</color>
+    <color name="primary_dark">#263238</color>
+    <color name="accent">#78909c</color>
+    <color name="control_normal">#888888</color>
+    <color name="fab_pressed">#546e7a</color>
+
+
+</resources>

@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">CourseTube</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="video_title">video Title</string>
+    <string name="video_description">video description</string>
+    <string name="title">Title</string>
+    <string name="details">Details</string>
+    <string name="comments">COMMENTS</string>
+    <string name="favourite">FAVOURITE</string>
+
+    <string name="signup">SignUp</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="continue_with_google">Continue With Google</string>
+    <string name="forgot_your_password">Forgot your Password?</string>
+    <string name="don_t_have_an_account_yet">Don\'t have an account yet ?</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="terms">By creating an account you agree to our Terms of Service and Privacy Policy</string>
+    <string name="con">Continue</string>
+    <string name="login">Login</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">J2HifsceBU6f0ph1SKRjZCUKT6T0yQWkhwVT7Rx5</string>
+    <string name="back4app_client_key">36vaUoJQ3evmzlfOoB5RLMs2GIse60FKipuzr8Qv</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">My Courses</string>
+    <string name="tab_text_2">Community</string>
+    <string name="tab_text_3">Notification</string>
+    <string name="tab_text_4">About</string>
+    <string name="tab_text_5">Todo list</string>
+    <string name="tab_text_6">Community</string>
+    <string name="action_settings">Sign Out</string>
+    <string name="action_settings2">Sign Out</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_navigation_menu">NavigationMenu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_course_details">Course_details</string>
+    <string name="transition_dialog">transition_dialog</string>
+
+    <string name="title_activity_add_reminder">Add Reminder</string>
+    <string name="title_activity_edit_reminder">Edit Reminder</string>
+    <string name="title_activity_licenses">Licenses</string>
+
+    <string name="add_reminder">Reminder</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_off">Off</string>
+    <string name="repeat_no">Repetition Interval </string>
+    <string name="repeat_type">Type of Repetitions</string>
+
+    <string name="action_discard_reminder">Discard Reminder</string>
+    <string name="action_save_reminder">Save Reminder</string>
+    <string name="description">Description</string>
+    <string name="course_name">Course Name</string>
+    <string name="choose_image">Choose image</string>
+    <string name="add">Add New Course </string>
+    <string name="playlist_url">PlayList URL</string>
+
+    <string name="no_reminders">Click on the plus button below to begin creating your reminders!</string>
+
+    <string name="About"><BIG><b>We are Team One : </b></BIG> \n \n
+
+        1)  Belal Samy   \n
+        2)  Ahmed Omar   \n
+        3)  Hassan Gamal  \n
+        4)  Ahmed Emad    \n
+        5)  Mohamed Ali   \n
+        6)  Alaa Gaber    \n \n
+
+        <BIG><b>The Idea of our Project : </b></BIG> \n\n
+
+        CourseTube is application and website    \n
+        to solve the problem we faced with self study and we have 3 main problems \n
+        time management , communication and motivation ....
+        so we add a lot of features to solve those problems .... \n \n
+
+        the link of our website : \n
+        ////the link ////
+
+
+    </string>
+
+</resources>

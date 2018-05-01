@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="app.com.youtubeapiv3">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/coursetube_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <meta-data
+            android:name="com.parse.SERVER_URL"
+            android:value="@string/back4app_server_url" />
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="@string/back4app_app_id" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="@string/back4app_client_key" />
+
+        <activity android:name=".CoursesList" />
+        <activity
+            android:name=".CourseTools"
+            android:label="Courses"
+            android:parentActivityName=".CoursesList" />
+        <activity android:name=".DetailsActivity" />
+        <activity android:name=".LogIn_Activity" />
+        <activity
+            android:name=".SignUp_Activity"
+            android:label="@string/sign_up"
+            android:parentActivityName=".LogIn_Activity" />
+        <activity android:name=".LogOut_Activity" />
+        <activity android:name=".Forgot_Password_Activity" />
+        <activity android:name=".SplashScreen_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Profile" />
+        <activity android:name=".NewsFeed" />
+        <activity android:name=".AddPeople" />
+        <activity android:name=".Reminders" />
+        <activity android:name=".AddCourses"></activity>
+
+        <activity android:name=".ReminderAddActivity"
+            android:label="@string/title_activity_add_reminder"/>
+
+        <activity android:name=".ReminderEditActivity"
+            android:label="@string/title_activity_edit_reminder"/>
+
+        <activity android:name=".AboutActivity"
+            android:label="About"/>
+
+        <receiver android:name=".AlarmReceiver"/>
+
+        <receiver android:name=".BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+
+</manifest>
